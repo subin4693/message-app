@@ -1,0 +1,50 @@
+.container {
+    max-height: 100vh;
+
+    padding: 5px;
+    overflow-y: auto;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 99%;
+    background: var(--lightgray);
+    color: var(--navygray);
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.input {
+    padding: 15px 5px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: inherit;
+
+    font-size: 1rem;
+}
+
+.icon {
+    font-size: 2rem;
+}
+
+.createchatBtn {
+    background: var(--lightgreen);
+    border: none;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}

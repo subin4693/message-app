@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    position: sticky;
+    background: white;
+    padding: 5px;
+    top: 0;
+    left: 370px;
+    background: var(--lightgreen);
+}
+
+.imageContainer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.image {
+    border-radius: 25%;
+}
+
+.lastseen {
+    font-size: 0.9rem;
+}

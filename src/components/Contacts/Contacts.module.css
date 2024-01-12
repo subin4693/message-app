@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+}
+.image {
+    border-radius: 50%;
+}
+
+.userdetailContainer {
+    width: 100%;
+}
+
+.nameContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.time,
+.lastmsg {
+    font-size: 0.7rem;
+}
+
+.newMsg {
+    font-size: 0.7rem;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: grid;
+    place-items: center;
+    color: white;
+    background: var(--lightgreen);
+    margin-right: 8px;
+}

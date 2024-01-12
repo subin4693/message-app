@@ -1,0 +1,20 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formcontainer {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.para {
+    font-size: 0.9rem;
+    margin-top: 35px;
+}
+.input {
+    padding: 5px;
+    width: 250px;
+}
